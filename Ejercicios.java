@@ -1,14 +1,19 @@
 public class Ejercicios {
 
     public static void main(String[] args) {
-        System.out.println("El programa Inicia");
+        //System.out.println("El programa Inicia");
         Pila p = new Pila();
+        System.out.println("Como deberia estar la pila aca?");
+        System.out.println(p.estaVacia); //Vacia (true)
         p.apilar("Primer Objeto");
-        p.apilar("Segundo Objeto");
-        p.apilar("Tercer Objeto");
-        p.apilar("Cuarto Objeto");
-        p.apilar("Quinto Objeto");
-        System.out.println("El programa Finaliza");
+        System.out.println("Como deberia estar la pila aca?");
+        System.out.println(p.estaVacia); //Llena (false)
+        p.desapilar();
+        System.out.println("Como deberia estar la pila aca?");
+        System.out.println(p.estaVacia); //Vacia (true)
+        //p.apilar("Esta es la prueba mortal");
+        p.desapilar();
+        //System.out.println("El programa Finaliza");
     }
 
 }
