@@ -1,5 +1,4 @@
-public class Pila {
+public class Cola {
 
     private Object valor;
-
 }

@@ -1,5 +1,4 @@
-public class Pila {
+public class Nodo {
 
     private Object valor;
-
 }
