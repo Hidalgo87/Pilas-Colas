@@ -5,6 +5,9 @@ public class Ejercicios {
         Pila p = new Pila();
         p.apilar("Primer Objeto");
         p.apilar("Segundo Objeto");
+        p.apilar("Tercer Objeto");
+        p.apilar("Cuarto Objeto");
+        p.apilar("Quinto Objeto");
         System.out.println("El programa Finaliza");
     }
 
