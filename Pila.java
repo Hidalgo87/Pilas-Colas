@@ -1,6 +1,6 @@
 public class Pila {
 
-    private Object valor;
+    private Object[] datos;
 
     //tope
     private Object cima;
@@ -9,7 +9,10 @@ public class Pila {
 
     //push
     public void apilar(Object objeto){
-
+       if(estaVacia){
+           datos = new Object[1];
+           datos[0] = objeto;
+       }
     }
 
     //pop
